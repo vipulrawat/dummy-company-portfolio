@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Applozic-Vipul Rawat</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+            <header id="header">
+                    <a class="logo" href="#"><img src="assets/pngs/logo.png"/></a>
+                    <nav>
+                    <input type="checkbox" id="nav" class="hidden"/>
+                    <label for="nav" class="nav-open"><i></i><i></i><i></i></label>
+                    <div class="nav-container">
+                      <ul>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#" id="accLink">Create free account</a></li>
+                      </ul>
+                    </div>
+                  </nav>
+            </header>
+            <!--End Of Navigation-->
+            <div class="main-content">
+              <div class="main-heading">
+                  Delight your customers with intelligent 
+                  chat based support
+              </div>
+              <form action="">
+                <input type="email" placeholder="Your email address">
+                <button class="btn btn-email">Create free account</button>
+              </form>
+              <div id="form-info">30 days trial. Quick setup. No credit card required</div>
+              <div id="main-content-display">
+                  <div id="main-content-display-text">
+                 I have been playing with several pieces of software, and they are way too complicated, time-consuming, and expensive. I was on Google today searching, and you popped up! Within minutes, I had a professional solution for my website.
+                  <br/> <span id="mcdt-salutation">Bill Gates<br/><span style="font-size: 30px;                  font-weight: 100">Microsoft</span></span>
+                  </div>
+                  <div id="main-content-display-img"><img src="./assets/svgs/billu.svg"></div>
+                  <div class="clearfix"></div>
+              </div>
+              <div id="cutting-curve"></div>
+            </div>
+            <!--End of main content-->
+            <div class="features">
+              <div id="features-carousel">
+                <div class="heading-2">Features you will love.</div>
+                <div id="f-link"><a href="#">Explore all features</a></div>
+                <button class="features-links" onclick="changeImage(event,'Conversations')" id="defaultOpen">Conversations</button>
+                <button class="features-links" onclick="changeImage(event,'Bot')">Bot Integration</button>
+                <button class="features-links" onclick="changeImage(event,'Agent')">Agent Wise Reporting</button>
+                <button class="features-links" onclick="changeImage(event,'faqs')">FAQs</button>
+                <button class="features-links" onclick="changeImage(event,'Integrations')">Integrations</button>
+              </div>
+              
+              <div id="Conversations" class="features-content">
+                <img src="./assets/svgs/group.svg">
+              </div>
+              
+              <div id="Bot" class="features-content">
+                <img src="./assets/pngs/bot.png">
+              </div>
+              
+              <div id="Agent" class="features-content">
+                <img src="./assets/svgs/agent.svg" >
+              </div>
+
+              <div id="faqs" class="features-content">
+                <img src="./assets/pngs/faqs.png" >
+              </div>
+
+              <div id="Integrations" class="features-content">
+                <img src="./assets/svgs/integrations.svg" >
+              </div>
+            </div>
+            <!--End of Features-->
+            <div class="testimonials">
+              <div id="heading2">Join the list of happy customers<br/><img src="./assets/svgs/bar.svg"></div>
+              
+              <div id="carousel">
+                <div class="tone">
+                    <div class="card">
+                  <img src="./assets/pngs/mark.png" alt="Mark" class="img-tstmnl"/>
+                  <div class="name-tstml">
+                    <span class="name-tstml-name">Mark Zuckerberg</span></br>
+                    <span class="name-tstml-company">CEO, Facebook</span>
+                  </div>
+                  <div class="content-tstmnl">
+                    I just wanted to share a quick note and let you know that you guys do a really good job. I’m glad I decided to work with you. It’s really great how easy your websites are to update and manage. I never have any problem at all. 
+                  </div>
+                </div>
+                </div>
+                <div class="tmain">
+                  <div class="card">
+                  <img src="./assets/pngs/jeff.png" alt="Mark" class="img-tstmnl"/>
+               <div class="name-tstml">
+                    <span class="name-tstml-name">Jeff Bezos</span></br>
+                    <span class="name-tstml-company">Amazon</span>
+                  </div>
+                  <div class="content-tstmnl">
+                       I want to let you know that you guys do a really good job. I’m glad I decided to work with you. It’s really great how easy your websites are to update and manage. I never have any problem at all. 
+                  </div>
+                </div>
+                </div>
+                 <div class="ttwo">
+                   <div class="card">
+                  <img src="./assets/pngs/mark.png" alt="Mark" class="img-tstmnl"/>
+               <div class="name-tstml">
+                    <span class="name-tstml-name">Jeff Bezos</span></br>
+                    <span class="name-tstml-company">Amazon</span>
+                  </div>
+                  <div class="content-tstmnl">
+                      No I'am not jeff hihi. Anyway I’m glad I decided to work with you. It’s really great how easy your websites are to update and manage. I never have any problem at all. 
+                  </div>
+                </div>
+                 </div>
+              </div>
+              <div class="buttons">
+                    <button id="prevB"><img src="./assets/svgs/arrow-left.svg"></button>
+                    <button id="nextB"><img src="./assets/svgs/arrow-right.svg"></button>
+              </div>
+            </div>
+         <!--End of testimonials-->
+         <div class="integrate-content">
+            <div id="heading2">Install anywhere & connect with your favorite services<br/><img src="./assets/svgs/bar.svg"></div>
+            <div class="row">
+              <div class="column">
+              <img src="./assets/pngs/column1.png">
+              <div id="heading3">Easily integrate across all your platforms</div>
+              <p>Integrate in your platform easily with our powerful and customizable web plugin and mobile SDKs (available for platforms such as Android, iOS, Cordova, Ionic and PhoneGap).</p>
+              <a href="#">SEE DOCS</a>
+            </div>
+            <div class="column">
+                <img src="./assets/pngs/column2.png">
+                <div id="heading3">Use our services with your favorite apps</div>
+                <p>Seamlessly move to and fro between your favorite apps and our product. Make most out of your customer support by integrating different platforms such as CRMs and knowledge-base Software.</p>
+            </div>
+          </div>
+         </div>
+         <!--End of integrate content-->
+         <div class="footer-banner">
+           <div id="banner">
+              <p>Join the list of 1000+ happy customers<button class="btn btn-email">Create free account</button></p>
+           </div>
+         </div>
+         <!--End of footer banner-->
+         <div class="main-footer">
+           <div class="row">
+             <div class="column" id="test">
+                <a href="#"><img src="./assets/pngs/logo.png" class="flogo" /></a>
+                <pre>
+                    #4596, Liberty Avenue
+                    Barbask, CA
+                    California - 91505
+
+                    (+91)714-496-5720
+                    hello@logo.io
+                </pre>
+               
+             </div>
+             <div class="column" id="right-column">
+               <div class="c1">
+                 Product
+                 <ul>
+                   <li><a href="#">Features</a></li>
+                   <li><a href="#">Pricing and FAQS</a></li>
+                   <li><a href="#">Docs</a></li>
+                   <li><a href="#">Request Demo</a></li>
+                 </ul>
+               </div>
+               <div class="c1">
+                  Company
+                 <ul>
+                   <li><a href="#">About Us</a></li>
+                   <li><a href="#">Blog</a></li>
+                   <li><a href="#">Jobs</a></li>
+               
+                 </ul>
+               </div>
+               <div class="c1">
+                  Social
+                 <ul>
+                   <li><a href="#">Facebook</a></li>
+                   <li><a href="#">Twitter</a></li>
+                   <li><a href="#">LinkedIn</a></li>
+                 
+                 </ul>
+               </div>
+             </div>
+           </div>
+           <hr/>
+           <span>Copyright &copy; 2018 logo.io</span>
+         </div>
+
+    </div>
+ 
+</body> 
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>  
+<script src="./js/main.js"></script>
+
+</html>
